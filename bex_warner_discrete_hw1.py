@@ -1,3 +1,8 @@
+# Problem to solve:
+# Let R be the relation defined as follows:
+# R = {(m, n) ∈ Z × Z|0.5 ≤ |m/n| ≤ 1}
+# Write a Python function which takes an integer argument m and returns
+# a list consisting of exactly those integers n such that (m, n) ∈ R.
 isNotFinished = True
 print "This program will return to you the potential n values, given m,"
 while isNotFinished:
