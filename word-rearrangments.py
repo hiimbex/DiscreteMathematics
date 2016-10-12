@@ -3,7 +3,6 @@
 #Run program to be prompted for input, (autocapitalizes all input)
 
 from itertools import permutations
-
 isRunning = True
 print "This program will return to you all permutations of a word"
 while isRunning:
