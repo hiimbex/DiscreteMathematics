@@ -1,3 +1,7 @@
+
+#Python 2.7.6
+#Run program to be prompted to enter input
+
 def fibonacci():
     a, b = 0, 1
     while True:
