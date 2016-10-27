@@ -13,7 +13,6 @@ while isRunning:
         print "Please enter a real word"
     else:
         permutations = [''.join(p) for p in permutations(n)]
-        # print "All Permutations: ", permutations
         permutationsSet = set(permutations)
         #Getting unique values
         print "Unique Permutations: ", list(permutationsSet)

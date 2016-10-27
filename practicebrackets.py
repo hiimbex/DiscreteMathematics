@@ -1,18 +1,18 @@
 def is_matched(strOfBrackets):
     stack = []
-    pushChars, popChars = "<({[", ">)}]"
-    for c in strOfBrackets :
-        if c in pushChars :
+    pushChars, popChars = "({[", ")}]"
+    for c in strOfBrackets:
+        if c in pushChars:
             stack.append(c)
-        elif c in popChars :
-            if not len(stack) :
+        elif c in popChars:
+            if not len(stack):
                 return False
-            else :
+            else:
                 stackTop = stack.pop()
                 balancingBracket = pushChars[popChars.index(c)]
-                if stackTop != balancingBracket :
+                if stackTop != balancingBracket:
                     return False
-        else :
+        else:
             return False
     return not len(stack)
 
