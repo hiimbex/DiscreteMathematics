@@ -15,7 +15,7 @@ def gcd(m,n):
     print("{:d}*{:d}+{:d}*{:d}={:d}".format(M[0],mm,M[1],nn,m))
     return M[1], m
 
-print "This program will return to you a ^ k mod n"
+print "This program will return to you an inverse (m) mod n"
 while True:
     userInputA = input("Input a number m: ")
     userInputB = input("Input a the modulo (n): ")
